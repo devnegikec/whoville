@@ -1,0 +1,24 @@
+{
+  "name": "whoville",
+  "version": "1.0.0",
+  "description": "a large scale web app",
+  "main": "index.js",
+  "author": "Devendra Negi",
+  "license": "MIT",
+  "scripts": {
+	  "fix": "eslint src --fix",
+    "lint": "eslint src",
+    "precommit": "yarn run lint"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "eslint": "^6.5.1",
+    "nodemon": "^1.19.4",
+    "rimraf": "^3.0.0"
+  }
+}
